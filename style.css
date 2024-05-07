@@ -5,20 +5,88 @@
 }
 
 h1 {
-    /* padding: 5em 30em; */
+    padding: 2em;
     display: flex;
     justify-content: center;
 }
 
 .video {
-    /* padding: 0em 30em 5em; */
- display: flex;
- justify-content: center;
+    padding: 0em 0em 5em;
+    display: flex;
+    justify-content: center;
 }
 
+/* top links */
 .links {
-    padding: .3em 5em .5em;
+    padding: .3em 0em 5em;
     display: flex;
     justify-content: center;
     justify-content: space-around;
+}
+
+.socials {
+    padding: 1em 5em;
+}
+
+.sketchbookpics {
+    margin: 1em;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: center;
+}
+
+.bow {
+    padding: 1em;
+    width: 40rem;
+    height: auto;
+}
+
+.bow2 {
+    padding: 2em;
+    text-align: center;
+    font-size: 25px;
+}
+
+.picture {
+    text-align: center;
+}
+
+.selfie {
+    text-align: center;
+}
+
+.contactme {
+    font-size: 30px;
+}
+
+button {
+    font-size: 1.5em;
+}
+
+body {
+    background-color: rgb(241, 125, 241);
+}
+
+head {
+    background-color: rgb(108, 108, 108);
+}
+
+.animtext {
+    padding: 2em 1em;
+    display: flex;
+    /* justify-content: center; */
+}
+
+.animationsection {
+    display: flex;
+    justify-content: center;
+}
+
+.yapsesh {
+    padding: 2em 20em;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
 }
